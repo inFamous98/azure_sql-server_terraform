@@ -1,6 +1,5 @@
 module "sql_databases" {
   source = "./sql_databases"
-
   resource_group_name          = var.resource_group_name
   location                     = var.location
   sql_server_name              = var.sql_server_name
